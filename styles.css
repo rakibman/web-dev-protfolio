@@ -1,0 +1,277 @@
+
+
+.open-sans-normal {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+/*shared style*/
+.primary-bg{
+    background-color: #FFF8F3;
+
+}
+.text-primary{
+    color:#FD6E0A ;
+}
+.dark-2{
+    color: #474747;
+}
+.dark-3{
+    color: #757575;
+}
+
+.btn-primary{
+    background-color: #FD6E0A;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    border: none;
+    padding: 18px 35px;
+    border-radius: 5px;
+    
+}
+.button{
+    display: flex;
+    gap: 30px;
+    
+    
+}
+.btn-Contact{
+    color: #FD6E0A;
+    font-size: 20px;
+    width: 160px;
+    padding: 5 10px;
+    border-color: #FD6E0A;
+    border-radius: 5px;
+}
+/*hedder*/
+.header{
+    background-image: url('/images/developer.png'),url('/images/header_bg.png');
+
+    background-repeat: no-repeat;
+    background-position: top left,bottom right;
+
+}
+
+
+/*nav styles*/
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin:0  150px;
+}
+.nav-title{
+    font-weight:800;
+    font-size:45px; 
+}
+nav ul { 
+    display: flex;
+    align-items: center;
+   
+}
+
+
+nav ul li{
+    list-style: none;
+   margin-right: 50px;
+   
+}
+nav ul a {
+    text-decoration: none;
+    font-size: 20px;
+}
+/*banner styles*/
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 37px 0 200px;
+}
+.banner-content{
+    max-width: 580px;
+}
+.banner-griddings{
+    font-size: 45px;
+    font-weight: 600;
+}
+.banner-title{
+    font-size: 85px;
+    font-weight: bold;
+}
+.bannner-profile-pic{
+    width: 580px;
+   
+}
+main{
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
+/*section style*/
+
+.section-title{
+    font-size: 35px;
+    font-weight: bold;
+}
+.section-decription{
+    font-size:18 ;
+    color:#757575;
+}
+/*about */
+.about{
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+    margin-top: 124px;
+    
+}
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/*about section style*/
+.item-title{
+    color: #757575;
+}
+.about-items{
+    display: flex;
+    justify-content: space-around;
+}
+
+.item-decription{
+    font-size: 20px;
+    font-weight: bold;
+}
+/* what i do section start*/
+.what{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    width:1000px;
+    align-items: center;
+    
+}
+.what-i-do{
+    text-align: center;
+
+}
+.cards{
+    display: flex;
+    margin-left: 0px;
+    
+}
+.card{
+      width: 210px;
+    background-color:whitesmoke;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 15px;
+    align-items: center;
+    
+    
+}
+.what-card{
+    width: 180px;
+    height: 250px;
+    
+    
+   }
+   .card-section-title{
+    font-size: 20px;
+    font-weight: bold;
+   }
+   /*A summary of My Resume start form here*/
+
+   .column-title{
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+    color: #181818;
+    margin-top: 130px;
+    
+   }
+   .resume{
+    display: flex;
+    gap: 71px;
+    align-items: center;
+    margin-top: 113px;
+    margin-bottom: 110px;
+   }
+   .resume-column-title{
+    font-size: 30px;
+    font-weight: bold;
+    color: #474747;
+   }
+   .experience{
+    width: 500px;
+   }
+   .experince-title{
+    font-size: 25px;
+    font-weight: bold;
+    color: #474747;
+   }
+   .experince-sub-title{
+    font-size:20px;
+    font-weight:lighter;
+   }
+   .experince-description{
+    color: #757575;
+   }
+   .cv-button{
+    text-align: center;
+   }
+   .cv-dawnload-button{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    background-color: #FD6E0A;
+    padding: 19px;
+    border-style: none;
+    border-radius: 5px;
+    
+   }
+   .footers{
+    width: 1600px;
+     float: left;
+     align-items: center;
+     
+   }
+   .footer-1{
+    display: flex;
+    text-align: left;
+    gap: 117px;
+    
+   }  
+   .footer-containar{
+   
+    width: 500px;
+    
+   }
+.input-items{
+    padding: 100px 200px;
+    justify-content: space-between;
+    
+   
+}
+.footer-bg{
+    background-color: #FFF8F3;
+}
+.input{
+    padding: 10px;
+    background-color: #FFFFFF;
+    border-style: none;
+    border-radius: 5px;
+    width: 450px;
+    height: 50px;
+
+}
+.textarea{
+     padding: 10px;
+    background-color: #FFFFFF;
+    border-style: none;
+    border-radius: 5px;
+    width: 450px;
+}
+
